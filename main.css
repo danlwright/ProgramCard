@@ -1,0 +1,383 @@
+/* Simple Responsive Framework. */
+* {
+    box-sizing: border-box;
+}
+body{
+    max-width: 1000px;
+    margin:auto;
+    padding: 30px;
+}
+.quote{
+    width: 75%;
+    margin:auto;
+    text-align: center;
+    font-style: italic;
+    font-size:20px;
+    margin-top:45px;
+    margin-bottom: 45px;
+}
+.row {
+    width: -webkit-calc(100%);
+    width:    -moz-calc(100%);
+    width:         calc(100%);
+    margin:0 auto;
+   }
+
+.column {
+    padding: 5px;
+   
+}
+
+/********** Large devices only **********/
+
+@media (min-width: 991px) {
+    .col-large-1,
+    .col-large-2,
+    .col-large-3,
+    .col-large-4,
+    .col-large-5,
+    .col-large-6,
+    .col-large-7,
+    .col-large-8,
+    .col-large-9,
+    .col-large-10,
+    .col-large-11,
+    .col-large-12 {
+        float: left;
+    }
+    .col-large-1 {
+        width: 8.33%;
+    }
+    .col-large-2 {
+        width: 16.66%;
+    }
+    .col-large-3 {
+        width: 25%;
+    }
+    .col-large-4 {
+        width: 33.33%;
+    }
+    .col-large-5 {
+        width: 41.66%;
+    }
+    .col-large-6 {
+        width: 50%;
+    }
+    .col-large-7 {
+        width: 58.33%;
+    }
+    .col-large-8 {
+        width: 66.66%;
+    }
+    .col-large-9 {
+        width: 74.99%;
+    }
+    .col-large-10 {
+        width: 83.33%;
+    }
+    .col-large-11 {
+        width: 91.66%;
+    }
+    .col-large-12 {
+        width: 100%;
+    }
+}
+
+
+/********** Medium devices only **********/
+
+@media (min-width: 771px) and (max-width: 990px) {
+    .col-med-1,
+    .col-med-2,
+    .col-med-3,
+    .col-med-4,
+    .col-med-5,
+    .col-med-6,
+    .col-med-7,
+    .col-med-8,
+    .col-med-9,
+    .col-med-10,
+    .col-med-11,
+    .col-med-12 {
+        float: left;
+    }
+    .col-med-1 {
+        width: 8.33%;
+    }
+    .col-med-2 {
+        width: 16.66%;
+    }
+    .col-med-3 {
+        width: 25%;
+    }
+    .col-med-4 {
+        width: 33.33%;
+    }
+    .col-med-5 {
+        width: 41.66%;
+    }
+    .col-med-6 {
+        width: 50%;
+    }
+    .col-med-7 {
+        width: 58.33%;
+    }
+    .col-med-8 {
+        width: 66.66%;
+    }
+    .col-med-9 {
+        width: 74.99%;
+    }
+    .col-med-10 {
+        width: 83.33%;
+    }
+    .col-med-11 {
+        width: 91.66%;
+    }
+    .col-med-12 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 531px) and (max-width: 770px) {
+    .col-sml-1,
+    .col-sml-2,
+    .col-sml-3,
+    .col-sml-4,
+    .col-sml-5,
+    .col-sml-6,
+    .col-sml-7,
+    .col-sml-8,
+    .col-sml-9,
+    .col-sml-10,
+    .col-sml-11,
+    .col-sml-12 {
+        float: left;
+    }
+    .col-sml-1 {
+        width: 8.33%;
+    }
+    .col-sml-2 {
+        width: 16.66%;
+    }
+    .col-sml-3 {
+        width: 25%;
+    }
+    .col-sml-4 {
+        width: 33.33%;
+    }
+    .col-sml-5 {
+        width: 41.66%;
+    }
+    .col-sml-6 {
+        width: 50%;
+    }
+    .col-sml-7 {
+        width: 58.33%;
+    }
+    .col-sml-8 {
+        width: 66.66%;
+    }
+    .col-sml-9 {
+        width: 74.99%;
+    }
+    .col-sml-10 {
+        width: 83.33%;
+    }
+    .col-sml-11 {
+        width: 91.66%;
+    }
+    .col-sml-12 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 530px) {
+    .col-exsm-1,
+    .col-exsm-2,
+    .col-exsm-3,
+    .col-exsm-4,
+    .col-exsm-5,
+    .col-exsm-6,
+    .col-exsm-7,
+    .col-exsm-8,
+    .col-exsm-9,
+    .col-exsm-10,
+    .col-exsm-11,
+    .col-exsm-12 {
+        float: left;
+        padding-left: 25px; 
+        padding-right: 25px;
+    }
+
+
+    .col-exsm-1 {
+        width: 8.33%;
+    }
+    .col-exsm-2 {
+        width: 16.66%;
+    }
+    .col-exsm-3 {
+        width: 25%;
+    }
+    .col-exsm-4 {
+        width: 33.33%;
+    }
+    .col-exsm-5 {
+        width: 41.66%;
+    }
+    .col-exsm-6 {
+        width: 50%;
+    }
+    .col-exsm-7 {
+        width: 58.33%;
+    }
+    .col-exsm-8 {
+        width: 66.66%;
+
+    }
+    .col-exsm-9 {
+        width: 74.99%;
+    }
+    .col-exsm-10 {
+        width: 83.33%;
+        margin-left: 16.66%;
+        
+    }
+    .col-exsm-11 {
+        width: 91.66%;
+    }
+    .col-exsm-12 {
+        width: 100%;
+    }
+}
+.hr5 {
+    margin: 5px;
+}
+
+
+.btnGroup {
+    margin-bottom: 5px;
+    text-align: right;
+}
+
+.programTitle {
+    margin-top: 0px;
+    height: 40px;
+    display: table-cell;
+    vertical-align: middle
+}
+
+.progInfo {
+    overflow: hidden;
+    height: 100px;
+    margin-bottom: 9px;
+}
+
+.thumbnail {
+    position: relative;
+    /*width: 215px;*/
+}
+
+.img300x130 {
+    width: 300px;
+    height: 130px;
+}
+
+.ribbon {
+    position: absolute;
+    left: -3px;
+    top: -5px;
+    z-index: 1;
+    overflow: hidden;
+    width: 85px;
+    height: 85px;
+    text-align: right;
+}
+
+.ribbon span {
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    line-height: 20px;
+    transform: rotate(-45deg);
+    width: 100px;
+    display: block;
+    background: #faa632;
+    box-shadow: -1px 5px 10px rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 19px;
+    left: -21px;
+}
+
+.ribbon span::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    z-index: -1;
+    border-left: 3px solid #faa632;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #faa632;
+}
+
+.ribbon span::after {
+    content: '';
+    position: absolute;
+    right: 0%;
+    top: 100%;
+    z-index: -1;
+    border-right: 3px solid #faa632;
+    border-left: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #faa632;
+}
+
+.red span {
+    background: #DA4F4A;
+}
+
+.red span::before {
+    border-left-color: #DA4F4A;
+    border-top-color: #DA4F4A;
+}
+
+.red span::after {
+    border-right-color: #DA4F4A;
+    border-top-color: #DA4F4A;
+}
+
+.blue span {
+    background: #016ecd;
+}
+
+.blue span::before {
+    border-left-color: #016ecd;
+    border-top-color: #016ecd;
+}
+
+.blue span::after {
+    border-right-color: #016ecd;
+    border-top-color: #016ecd;
+}
+
+.section {
+    margin-top: 25px;
+}
+
+.btnInfo {
+    border: solid;
+    border-width: 1.5px;
+    border-color: #5bc0de;
+}
+
+.btnApply {
+    border: solid;
+    border-width: 1.5px;
+    border-color: #5cb85c;
+    margin-left: 9px;
+
+}
